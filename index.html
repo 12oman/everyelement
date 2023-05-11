@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- The 'head' element contains metadata about the document -->
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Provides information about the page's viewport and scaling -->
+    <title>HTML Elements</title> <!-- Specifies a title for the document -->
+    <style>
+        /* 'style' element for internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    <script> // 'script' element for JavaScript
+        console.log("Hello, World!");
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Specifies relationships between the current document and an external resource -->
+    <base href="https://www.example.com/"> <!-- Specifies a base URL for all relative URLs in the page -->
+</head>
+
+<body>
+    <!-- The 'body' element contains the contents of the document -->
+    <header> <!-- 'header' element typically contains the site logo, site title, and main site navigation -->
+        <nav> <!-- 'nav' element for navigation links -->
+            <a href="/">Home</a> <!-- 'a' element for hyperlinks -->
+        </nav>
+    </header>
+    <main> <!-- 'main' element represents the dominant content of the body of a document -->
+        <article>
+            <!-- 'article' element represents a self-contained composition in a document, page, application, or site -->
+            <h1>HTML Elements</h1> <!-- 'h1' to 'h6' elements represent headings of their respective levels -->
+            <section> <!-- 'section' element represents a standalone section -->
+                <h2>Introduction</h2>
+                <p>This is an example of a paragraph.</p> <!-- 'p' element represents a paragraph -->
+                <figure>
+                    <!-- 'figure' element specifies self-contained content, like illustrations, diagrams, photos, code listings, etc. -->
+                    <img src="image.jpg" alt="An example image"> <!-- 'img' element to embed an image -->
+                    <figcaption>This is an image caption.</figcaption>
+                    <!-- 'figcaption' element represents a caption or legend for a figure -->
+                </figure>
+                <aside>This is an aside.</aside>
+                <!-- 'aside' element represents a portion of a document whose content is only indirectly related to the document's main content -->
+            </section>
+            <section>
+                <h2>More Elements</h2>
+                <ul> <!-- 'ul' element represents an unordered list of items -->
+                    <li>List item 1</li> <!-- 'li' element represents a list item -->
+                    <li>List item 2</li>
+                </ul>
+                <ol> <!-- 'ol' element represents an ordered list of items -->
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                </ol>
+                <dl> <!-- 'dl' element represents a description list -->
+                    <dt>Term 1</dt> <!-- 'dt' element represents a term name in a description list -->
+                    <dd>Definition 1</dd> <!-- 'dd' element represents a term's description in a description list -->
+                </dl>
+                <address>123 Main St, Anytown, Anystate</address>
+                <!-- 'address' element supplies contact information for its nearest <article> or <body> ancestor -->
+                <time datetime="2023-05-11">11th May, 2023</time>
+                <!-- 'time' element represents a specific period in time -->
+                <blockquote cite="source.html">
+                    <!-- 'blockquote' element represents a section that is quoted from another source -->
+                    This is a block quote.
+                </blockquote>
+                <q cite="source.html">This is an inline quote.</q> <!-- 'q' element indicates short quotations -->
+                <abbr title="Hypertext Markup Language">HTML</abbr>
+                <!-- 'abbr' element represents an abbreviation or acronym -->
+                <cite>Author Name</cite> <!-- 'cite' element represents the title of a work -->
+                <code>let x = 10;</code> <!-- 'code' element represents a fragment of computer code -->
+                <pre>const y = 20;</pre> <!-- 'pre' element represents preformatted text -->
+                <samp>Sample output</samp> <!-- 'samp' element represents sample output from a computer program -->
+                <kbd>Ctrl + S</kbd> <!-- 'kbd' element represents user input -->
+                <var>x</var>
+                <!-- 'var' element represents the name of a variable in a mathematical expression or a programming context -->
+                <dfn>Definition</dfn> <!-- 'dfn' element represents the defining instance of a term -->
+                <mark>Highlighted Text</mark>
+                <!-- 'mark' element represents marked or highlighted text for reference -->
+                <em>Emphasized Text</em> <!-- 'em' element represents emphasized text -->
+                <strong>Strongly emphasized text</strong>
+                <!-- 'strong' element indicates strong importance for its contents -->
+                <small>Small Text</small> <!-- 'small' element represents side comments and small print -->
+                <sub>Subscript text</sub>
+                <!-- 'sub' element specifies inline text that should be displayed as subscript -->
+                <sup>Superscript text</sup>
+                <!-- 'sup' element specifies inline text that should be displayed as superscript -->
+                <ins datetime="2023-05-11T18:25:00">Inserted Text</ins>
+                <!-- 'ins' element defines a text that has been inserted into a document -->
+                <del datetime="2023-05-11T18:20:00">Deleted Text</del>
+                <!-- 'del' element defines a text that has been deleted from a document -->
+                <s>Strikethrough text</s> <!-- 's' element renders text with a strikethrough, or a line through it -->
+                <u>Underlined Text</u> <!-- 'u' element renders text with an underline -->
+                <b>Bold Text</b> <!-- 'b' element renders text as bold -->
+                <i>Italic Text</i> <!-- 'i' element renders text as italic -->
+                <br> <!-- 'br' element produces a line break in text -->
+                <hr> <!-- 'hr' element represents a thematic break between paragraph-level elements -->
+                <wbr>Example<wbr>Break<wbr>Text</wbr> <!-- 'wbr' element represents a line break opportunity -->
+                <details>
+                    <!-- 'details' element represents disclosure widget from which the user can obtain additional information or controls -->
+                    <summary>More Info</summary>
+                    <!-- 'summary' element specifies a visible heading for the 'details' element -->
+                    Here is some more information.
+                </details>
+                <dialog open>This is an open dialog window.</dialog>
+                <!-- 'dialog' element represents a dialog box or other interactive component -->
+                <meter value="2" min="0" max="10">2 out of 10</meter>
+                <!-- 'meter' element represents scalar measurement within a known range, or a fractional value -->
+                <progress value="70" max="100"></progress> <!-- 'progress' element represents the progress of a task -->
+                <ruby>漢 <rt>Kan</rt></ruby>
+                <!-- 'ruby' element represents a ruby annotation used in East Asian typography -->
+                <bdo dir="rtl">This text will go right-to-left.</bdo>
+                <!-- 'bdo' element represents the direction of text display -->
+                <span>This is a span element</span>
+                <!-- 'span' element is used to group inline-elements in a document -->
+                <div>This is a div element</div>
+                <!-- 'div' element is a block-level and is used to group other elements -->
+                <output>5</output> <!-- 'output' element represents the result of a calculation -->
+                <data value="5">Five</data>
+                <!-- 'data' element links a given content with a machine-readable translation -->
+
+                <form>
+                    <!-- 'form' element represents a document section that contains interactive controls to submit information to a web server -->
+                    <fieldset> <!-- 'fieldset' element groups related elements in a form -->
+                        <legend>Legend</legend>
+                        <!-- 'legend' element represents a caption for the content of its parent 'fieldset' -->
+                        <label for="fname">First name:</label>
+                        <!-- 'label' element represents a caption for an item in a user interface -->
+                        <input type="text" id="fname" name="fname">
+                        <!-- 'input' element is used to create interactive controls for web-based forms -->
+                        <select id="cars" name="cars">
+                            <!-- 'select' element represents a control that provides a menu of options -->
+                            <option value="volvo">Volvo</option>
+                            <!-- 'option' element is used to define the possible options to choose from -->
+                        </select>
+                        <textarea id="subject" name="subject" rows="4" cols="50"> <!-- 'textarea' element represents a multiline plain text edit control for a user's input -->
+                            Write something here...
+                        </textarea>
+                        <button type="submit">Submit</button> <!-- 'button' element represents a clickable button -->
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer> <!-- 'footer' element represents a footer for its nearest sectioning content or sectioning root element -->
+        This is a footer.
+    </footer>
+
+    <!-- 'template' element is a mechanism for holding client-side content that is not to be rendered when a page is loaded but may be instantiated subsequently during runtime using JavaScript -->
+    <template id="product-template">
+        <div class="product">
+            <h2 class="product-name"></h2>
+            <p class="product-description"></p>
+        </div>
+    </template>
+
+    <canvas id="myCanvas" width="500" height="500">
+        <!-- 'canvas' element is used to draw graphics, on the fly, via scripting (usually JavaScript) -->
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <svg width="100" height="100"> <!-- 'svg' element is a container for SVG graphics -->
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+        <!-- 'circle' is one of the SVG shape elements -->
+    </svg>
+
+    <audio controls> <!-- 'audio' element is used to embed sound content -->
+        <source src="audio.ogg" type="audio/ogg">
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <video width="320" height="240" controls> <!-- 'video' element is used to embed video content -->
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    <iframe src="https://artspace-aotearoa.nz/" title="artspace"></iframe>
+    <!-- 'iframe' element represents a nested browsing context -->
+
+    <picture>
+        <!-- 'picture' element contains zero or more 'source' elements and one 'img' element to provide versions of an image for different display/device scenarios -->
+        <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+        <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+        <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+
+    <map name="workmap"> <!-- 'map' element is used with area elements to define an image map -->
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    </map>
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <object data="horse.wav">
+        <!-- 'object' element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin -->
+        Your browser does not support the object tag.
+    </object>
+
+    <embed type="image/jpg" src="https://picsum.photos/200/300" width="300" height="200">
+    <!-- 'embed' element represents an integration point for an external application or interactive content -->
+
+    <noscript>You have no love for JavaScript!</noscript>
+    <!-- 'noscript' element defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser -->
+</body>
+
+</html>
