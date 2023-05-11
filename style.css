@@ -1,0 +1,166 @@
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* creates a responsive grid with minimum 200px width columns */
+        grid-gap: 20px; /* space between grid items */
+        box-sizing: border-box;
+        padding: 20px; /* space around the grid */
+}
+
+header {
+    background-color: #ff9999;
+}
+
+nav {
+    background-color: #99ff99;
+}
+
+a {
+    color: #0000ff;
+}
+
+main {
+    background-color: #9999ff;
+}
+
+article {
+    background-color: #ff99ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00ff00;
+}
+
+section {
+    background-color: #999999;
+}
+
+p {
+    color: #ff00ff;
+}
+
+figure {
+    background-color: #00ffff;
+}
+
+img {
+    border: 2px solid #000;
+}
+
+figcaption {
+    color: #999900;
+}
+
+aside {
+    background-color: #666666;
+}
+
+ul, ol {
+    color: #cc9900;
+}
+
+li {
+    color: #cc0099;
+}
+
+dl {
+    color: #cc00cc;
+}
+
+dt {
+    color: #00cc00;
+}
+
+dd {
+    color: #00cccc;
+}
+
+address {
+    color: #660066;
+}
+
+time {
+    color: #006666;
+}
+
+blockquote, q {
+    color: #9999cc;
+}
+
+abbr {
+    color: #9999cc;
+}
+
+cite {
+    color: #9999cc;
+}
+
+code, pre, samp, kbd, var {
+    color: #cc6600;
+}
+
+dfn {
+    color: #cc6600;
+}
+
+mark {
+    background-color: #ffff00;
+}
+
+em, strong, small, sub, sup, ins, del, s, u, b, i {
+    color: #ff6600;
+}
+
+br, hr, wbr {
+    color: #ff6600;
+}
+
+details, summary {
+    color: #ff6600;
+}
+
+dialog, meter, progress, ruby, bdo, span, div, output, data {
+    color: #6600cc;
+}
+
+form, fieldset, legend, label, input, select, option, textarea, button {
+    color: #6600cc;
+}
+
+footer {
+    background-color: #cccc99;
+}
+
+template {
+    color: #cccc99;
+}
+
+canvas {
+    background-color: #cccc99;
+}
+
+svg, circle {
+    color: #6666cc;
+}
+
+audio, source, video {
+    color: #6666cc;
+}
+
+iframe, picture, map, area, object, embed, noscript {
+    color: #6666cc;
+}
